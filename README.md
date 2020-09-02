@@ -1,10 +1,8 @@
 # atalhos
 
-Essa é para quem usa GNU/Linux.
+Essa é para quem usa GNU/Linux. Nesses tempos de videochamadas precisamos manter uma janela ativa "sempre no topo" ou desativar essa função.
 
-Nesses tempos de vídeochamadas precisamos manter uma janela ativa "smpre no topo" ou desativar essa função.
-
-1. Crie um atalho de techado para deixar sempre no topo com este comando:
+1. Crie um atalho de teclado para deixar sempre no topo com este comando:
 wmctrl -r :ACTIVE: -b toggle,above
 
 2. Para remover a marcação use:
